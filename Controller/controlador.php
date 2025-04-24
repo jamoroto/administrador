@@ -1,6 +1,7 @@
 <?php
 
-	requiere_once "./Model/modelo.php";
+	//requiere_once "../Model/modelo.php";
+	require('../Model/modelo.php');
 	
 	class vistasControlador extends vistasModelo{
 		public function obtener_plantilla_controlador(){
